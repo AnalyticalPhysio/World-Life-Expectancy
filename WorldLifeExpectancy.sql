@@ -103,7 +103,7 @@ JOIN worldlifexpectancy t3
 SET t1.Lifeexpectancy = ROUND((t2.Lifeexpectancy + t3.Lifeexpectancy)/2,1)
 WHERE t1.Lifeexpectancy = '';
 
--- Performing Exploratory Data Analysis (EDA) of Worlf Life Expectancy Dataset
+-- Performing Exploratory Data Analysis (EDA) on Worlf Life Expectancy Dataset
 
 SELECT * 
 FROM worldlifexpectancy;
